@@ -1,0 +1,25 @@
+PROJECT: Graph Coloring using Backtracking
+UNIT: <Unit No>          TECHNIQUE: Backtracking
+AI TOOL USED: Claude (Anthropic)
+
+PROMPT USED
+-----------
+"Illustrate backtracking steps for coloring a 4-vertex graph using 3 colors."
+
+EXPECTED OUTCOME
+----------------
+Flowchart showing color assignments and backtracks.
+
+AI OUTPUT
+---------
+A top-down flowchart (see Visualization.png) for a 4-vertex complete graph K4
+(vertices A, B, C, D) with colors R, G, B showing:
+  - valid color assignments       (green boxes)
+  - dead ends at vertex D         (red boxes)
+  - backtracking steps            (orange boxes and dashed return arrows)
+  - final result: no valid 3-coloring exists (K4 needs 4 colors)
+
+FOLLOW-UP PROMPT (optional)
+---------------------------
+"Write the pseudocode and a Java program that prints every assignment,
+conflict and backtrack step for this graph."
