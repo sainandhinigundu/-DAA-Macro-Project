@@ -1,7 +1,7 @@
 # Graph Coloring using Backtracking
 
 **Course:** Design and Analysis of Algorithms (DAA) Macro Project
-**Student:** Gundu Sai Nandhini | **Roll No:** 25WH5A0503 | **Group:** 3
+**Student:** Gundu Sai Nandhini | **Roll No:** 25WH5A0503 | **Group:** 3|
 **Language:** Java | **Unit:** 4 | **Technique:** Backtracking
 
 ## 1. Problem statement
