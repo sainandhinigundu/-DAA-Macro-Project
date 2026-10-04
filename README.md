@@ -1,8 +1,8 @@
 # Graph Coloring using Backtracking
 
 **Course:** Design and Analysis of Algorithms (DAA) Macro Project
-**Student:** `<Your Name>` | **Roll No:** `<Roll No>` | **Group:** `<Group No>`
-**Language:** Java | **Unit:** `<Unit No>` | **Technique:** Backtracking
+**Student:** Gundu Sai Nandhini | **Roll No:** 25WH5A0503 | **Group:** 3
+**Language:** Java | **Unit:** 4 | **Technique:** Backtracking
 
 ## 1. Problem statement
 Given an undirected graph and `m` colors, assign a color to every vertex so that no two adjacent vertices share a color (the m-coloring problem).
