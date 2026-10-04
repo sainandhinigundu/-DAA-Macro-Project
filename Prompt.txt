@@ -12,7 +12,7 @@ Flowchart showing color assignments and backtracks.
 
 AI OUTPUT
 ---------
-A top-down flowchart (see Visualization.png) for a 4-vertex complete graph K4
+A top-down flowchart (see the Mermaid flowchart in README.md) for a 4-vertex complete graph K4
 (vertices A, B, C, D) with colors R, G, B showing:
   - valid color assignments       (green boxes)
   - dead ends at vertex D         (red boxes)
