@@ -1,7 +1,7 @@
 # Graph Coloring using Backtracking
 
 **Course:** Design and Analysis of Algorithms (DAA) Macro Project
-**Student:** Gundu Sai Nandhini | **Roll No:** 25WH5A0503 | **Group:** 3|
+**Student:** Gundu Sai Nandhini | **Roll No:** 25WH5A0503 | **Group:** 3
 **Language:** Java | **Unit:** 4 | **Technique:** Backtracking
 
 ## 1. Problem statement
@@ -77,6 +77,11 @@ flowchart TD
 ```
 
 ### 5.2 State space tree (branch A = R; X = pruned)
+
+![State space tree](Visualization_StateSpaceTree.png)
+
+Text version of the same tree:
+
 ```
 Root
 └── A=R
@@ -163,6 +168,7 @@ To see a successful coloring, remove one edge in `GRAPH` by setting `GRAPH[0][3]
 | `GraphColoring.java` | Java implementation of backtracking that prints every step |
 | `Prompt.txt` | AI prompt and expected outcome |
 | `README.md` | Project documentation |
+| `Visualization_StateSpaceTree.png` | State space tree with pruned nodes and test order |
 
 ## 10. Applications
 Timetable and exam scheduling, register allocation in compilers, map coloring, frequency assignment in networks.
