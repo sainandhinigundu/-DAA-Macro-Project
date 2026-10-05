@@ -1,0 +1,3 @@
+Generate a graph comparing time complexity of Merge and Quick Sort for n = 10, 100, 1000.
+Count the number of comparisons for each algorithm, include Quick Sort's average and worst case,
+add an n log n reference line, and show both a linear-scale and a log-log line chart.
