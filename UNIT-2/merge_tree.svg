@@ -1,0 +1,52 @@
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="700" height="540" fill="#ffffff"/>
+  <text x="350" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Optimal Merge Pattern Tree (files: 10, 20, 30, 40)</text>
+
+  <!-- edges -->
+  <g stroke="#555" stroke-width="2">
+    <line x1="350" y1="95" x2="170" y2="195"/>
+    <line x1="350" y1="95" x2="530" y2="195"/>
+    <line x1="530" y1="235" x2="410" y2="325"/>
+    <line x1="530" y1="235" x2="650" y2="325"/>
+    <line x1="410" y1="365" x2="330" y2="445"/>
+    <line x1="410" y1="365" x2="490" y2="445"/>
+  </g>
+
+  <!-- internal nodes (merged files) -->
+  <g fill="#cfe8ff" stroke="#1f6fb2" stroke-width="2">
+    <circle cx="350" cy="70" r="30"/>
+    <circle cx="530" cy="215" r="30"/>
+    <circle cx="410" cy="345" r="30"/>
+  </g>
+  <!-- leaf nodes (original files) -->
+  <g fill="#d6f5d6" stroke="#2e8b2e" stroke-width="2">
+    <rect x="140" y="195" width="60" height="40" rx="6"/>
+    <rect x="620" y="325" width="60" height="40" rx="6"/>
+    <rect x="300" y="445" width="60" height="40" rx="6"/>
+    <rect x="460" y="445" width="60" height="40" rx="6"/>
+  </g>
+
+  <g font-size="16" font-weight="bold" text-anchor="middle" fill="#222">
+    <text x="350" y="76">100</text>
+    <text x="530" y="221">60</text>
+    <text x="410" y="351">30</text>
+    <text x="170" y="221">40</text>
+    <text x="650" y="351">30</text>
+    <text x="330" y="471">10</text>
+    <text x="490" y="471">20</text>
+  </g>
+
+  <!-- merge step labels -->
+  <g font-size="13" fill="#b03a00" font-weight="bold">
+    <text x="385" y="112" text-anchor="end">Step 3: 40+60 = 100</text>
+    <text x="570" y="250" text-anchor="start">Step 2: 30+30 = 60</text>
+    <text x="370" y="395" text-anchor="end">Step 1: 10+20 = 30</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="20" y="480" width="16" height="16" fill="#cfe8ff" stroke="#1f6fb2" stroke-width="2"/>
+  <text x="42" y="493" font-size="13" fill="#222">Merged file</text>
+  <rect x="20" y="505" width="16" height="16" fill="#d6f5d6" stroke="#2e8b2e" stroke-width="2"/>
+  <text x="42" y="518" font-size="13" fill="#222">Original file</text>
+  <text x="680" y="518" text-anchor="end" font-size="14" font-weight="bold" fill="#222">Total cost = 30 + 60 + 100 = 190</text>
+</svg>
