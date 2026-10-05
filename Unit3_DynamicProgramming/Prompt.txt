@@ -1,0 +1,12 @@
+Create a clear visualization of a 0/1 Knapsack Dynamic Programming
+table with 4 items and capacity 10.
+
+Show:
+- Item weights and values
+- DP table
+- Capacity values from 0 to 10
+- Step-by-step item inclusion decisions
+- Highlight the final maximum profit
+
+The visualization should be simple, clean, and suitable for a
+college DAA macro project presentation.
